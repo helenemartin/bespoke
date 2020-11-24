@@ -1,12 +1,14 @@
 import React from "react";
 import { BrowserRouter as Router, Switch } from "react-router-dom";
 import { Route } from "react-router-dom";
+import TestSpeech from "./components/test";
 
 export function App() {
   return (
     <Router>
       <Switch>
         <Route path="/signin">
+          <TestSpeech />
           <p>I will be the sign in page</p>
         </Route>
         <Route path="/signup">
