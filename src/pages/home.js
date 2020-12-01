@@ -1,6 +1,6 @@
 import React from "react";
-import Feature from "../components/feature";
+import { FeatureContainer } from "../containers/feature";
 
 export default function Home() {
-  return <Feature.Container />;
+  return <FeatureContainer />;
 }

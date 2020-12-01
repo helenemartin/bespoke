@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "One",
+    "subTitle": "Click the button",
+    "image": "/images/fleischmann-gusti.jpg",
+    "alt": "bla",
+    "direction": "row"
+  },
+  {
+    "id": 2,
+    "title": "Two",
+    "subTitle": "On Click, Speak",
+    "image": "/images/jeanSeberg.jpg",
+    "alt": "bla",
+    "direction": "row-reverse"
+  },
+  {
+    "id": 3,
+    "title": "Three",
+    "subTitle": "Stream a voice in the dark",
+    "image": "/images/dolly.jpg",
+    "alt": "bla",
+    "direction": "row"
+  }
+]
