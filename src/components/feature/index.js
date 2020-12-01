@@ -5,7 +5,8 @@ import {
   Inner,
   Title,
   SubTitle,
-  Image
+  Image,
+  Pane
 } from "./styles/feature";
 
 export default function Feature({ children, direction = "row", ...restProps }) {
@@ -25,7 +26,10 @@ Feature.Title = function FeatureTitle({ children, ...restProps }) {
 Feature.SubTitle = function FeatureTitle({ children, ...restProps }) {
   return <SubTitle {...restProps}>{children}</SubTitle>;
 };
+Feature.Pane = function FeatureTitle({ children, ...restProps }) {
+  return <Pane {...restProps}>{children}</Pane>;
+};
 
-Feature.Image = function FeatureTitle({ children, ...restProps }) {
-  return <SubTitle>{children}</SubTitle>;
+Feature.Image = function FeatureImage({ ...restProps }) {
+  return <Image {...restProps} />;
 };

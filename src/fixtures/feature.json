@@ -5,7 +5,8 @@
     "subTitle": "Click the button",
     "image": "/images/fleischmann-gusti.jpg",
     "alt": "bla",
-    "direction": "row"
+    "direction": "row",
+    "spokenText": "Hello"
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "subTitle": "On Click, Speak",
     "image": "/images/jeanSeberg.jpg",
     "alt": "bla",
-    "direction": "row-reverse"
+    "direction": "row-reverse",
+    "spokenText": "Hi"
   },
   {
     "id": 3,
@@ -21,6 +23,7 @@
     "subTitle": "Stream a voice in the dark",
     "image": "/images/dolly.jpg",
     "alt": "bla",
-    "direction": "row"
+    "direction": "row",
+    "spokenText": "Hasta la vista"
   }
 ]

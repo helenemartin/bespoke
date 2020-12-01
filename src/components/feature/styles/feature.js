@@ -14,10 +14,19 @@ export const Inner = styled.div`
     flex-direction: column;
   }
 `;
+export const Pane = styled.div`
+  width: 50%;
+`;
 
-export const Item = styled.div``;
+export const Item = styled.div`
+  display: flex;
+  padding: 50px 5%;
+  overflow: hidden;
+`;
 
-export const Container = styled.div``;
+export const Container = styled.div`
+  background-color: #e8e3d6;
+`;
 
 export const Title = styled.h1`
   font-size: 50px;
