@@ -12,6 +12,7 @@ function clickButtons(e){
     utterance.lang = lang[langIndex];
     console.log(lang[langIndex])
     speechSynthesis.speak(utterance);
+    
 };
  
 var everyButton = document.getElementsByTagName('button');
