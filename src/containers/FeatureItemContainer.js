@@ -1,5 +1,6 @@
 import { useSpeechSynthesis } from "react-speech-kit";
 import Feature from "../components/feature";
+import Flipper from "../components/flipper";
 
 export function FeatureItemContainer({ item }) {
   const { speak } = useSpeechSynthesis();
@@ -18,16 +19,10 @@ export function FeatureItemContainer({ item }) {
           </Feature.Button>
         </Feature.Pane>
         <Feature.Pane>
-          <Feature.Flipper>
-            <Feature.InnerFrame>
-              <Feature.Front>
-                <Feature.Image src={item.image} alt={item.alt} />
-              </Feature.Front>
-              <Feature.Back>
-                <Feature.Image src={item.image2} alt={item.alt} />
-              </Feature.Back>
-            </Feature.InnerFrame>
-          </Feature.Flipper>
+          <Flipper>
+            <Feature.Image src={item.image} alt={item.alt} />
+            <Feature.Image src={item.image2} alt={item.alt} />
+          </Flipper>
         </Feature.Pane>
       </Feature>
     </>
