@@ -6,7 +6,12 @@ import {
   Title,
   SubTitle,
   Image,
-  Pane
+  Pane,
+  Button,
+  Back,
+  Front,
+  InnerFrame,
+  Flipper
 } from "./styles/feature";
 
 export default function Feature({ children, direction = "row", ...restProps }) {
@@ -32,4 +37,22 @@ Feature.Pane = function FeatureTitle({ children, ...restProps }) {
 
 Feature.Image = function FeatureImage({ ...restProps }) {
   return <Image {...restProps} />;
+};
+Feature.Button = function FeatureButton({ children, ...restProps }) {
+  return <Button {...restProps}>{children}</Button>;
+};
+Feature.Back = function FeatureBack({ children, ...restProps }) {
+  return <Back {...restProps}>{children}</Back>;
+};
+
+Feature.Front = function FeatureBack({ children, ...restProps }) {
+  return <Front {...restProps}>{children}</Front>;
+};
+
+Feature.InnerFrame = function FeatureInnerFrame({ children, ...restProps }) {
+  return <InnerFrame {...restProps}>{children}</InnerFrame>;
+};
+
+Feature.Flipper = function FeatureFlipper({ children, ...restProps }) {
+  return <Flipper {...restProps}>{children}</Flipper>;
 };

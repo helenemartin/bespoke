@@ -18,6 +18,22 @@ export const Inner = styled.div`
 export const Pane = styled.div`
   width: 50%;
 `;
+export const InnerFrame = styled.div`
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+`;
+export const Flipper = styled.div`
+  width: 300px;
+  height: 200px;
+  perspective: 1000px;
+  &:hover ${InnerFrame} {
+    transform: rotateY(180deg);
+  }
+`;
 
 export const Item = styled.div`
   display: flex;
@@ -52,4 +68,22 @@ export const SubTitle = styled.h2`
 export const Image = styled.img`
   max-width: 100%;
   height: auto;
+`;
+
+export const Button = styled.button``;
+
+export const Front = styled.div`
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+`;
+
+export const Back = styled.div`
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
 `;
