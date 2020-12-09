@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FeatureItemContainer Test should render title 1`] = `
+<div>
+  <button
+    data-testid="clickable-feature"
+  >
+    <div
+      class="sc-dlfnbm dziBQp"
+    >
+      <div
+        class="sc-bdfBwQ gpHtOy"
+        direction="row"
+      >
+        <div
+          class="sc-gsTCUz buEYpP"
+        >
+          <h1
+            class="sc-eCssSg hJediz"
+            data-testid="title"
+          >
+            One
+          </h1>
+          <h2
+            class="sc-jSgupP epbPTU"
+          >
+            Click the button
+          </h2>
+        </div>
+        <div
+          class="sc-gsTCUz buEYpP"
+        >
+          <img
+            alt="bla"
+            class="sc-gKsewC ngpnn"
+            src="/images/fleischmann-gusti.jpg"
+          />
+        </div>
+      </div>
+    </div>
+  </button>
+</div>
+`;

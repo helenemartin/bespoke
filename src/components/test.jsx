@@ -12,6 +12,9 @@ export default function TestSpeech() {
   return (
     <>
       <textarea value={value} onChange={e => test(e)} />
+
+      <button onClick={() => speak({ text: value })}>Speak</button>
+
       <button onClick={() => speak({ text: value })}>Speak</button>
     </>
   );
