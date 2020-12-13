@@ -3,8 +3,8 @@
     "id": 1,
     "title": "One",
     "subTitle": "Click the button",
-    "image": "/images/fleischmann-gusti.jpg",
-    "image2": "/images/jeanSeberg.jpg",
+    "image": "./images/fleischmann-gusti.jpg",
+    "image2": "./images/jeanSeberg.jpg",
     "alt": "bla",
     "direction": "row",
     "spokenText": "Hello"
@@ -13,8 +13,8 @@
     "id": 2,
     "title": "Two",
     "subTitle": "On Click, Speak",
-    "image": "/images/jeanSeberg.jpg",
-    "image2": "/images/fleischmann-gusti.jpg",
+    "image": "./images/jeanSeberg.jpg",
+    "image2": "./images/fleischmann-gusti.jpg",
     "alt": "bla",
     "direction": "row-reverse",
     "spokenText": "Hi"
@@ -23,8 +23,8 @@
     "id": 3,
     "title": "Three",
     "subTitle": "Stream a voice in the dark",
-    "image": "/images/dolly.jpg",
-    "image2": "/images/dolly.jpg",
+    "image": "./images/dolly.jpg",
+    "image2": "./images/dolly.jpg",
     "alt": "bla",
     "direction": "row",
     "spokenText": "Hasta la vista"
