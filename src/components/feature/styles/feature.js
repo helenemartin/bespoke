@@ -19,7 +19,6 @@ export const Pane = styled.div`
   width: 50%;
 `;
 
-
 export const Item = styled.div`
   display: flex;
   padding: 50px 5%;
@@ -51,7 +50,7 @@ export const SubTitle = styled.h2`
 `;
 
 export const Image = styled.img`
-  max-width: 100%;
+  max-width: 200%;
   height: auto;
 `;
 
