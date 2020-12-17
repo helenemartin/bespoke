@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 export const InnerFrame = styled.div`
   position: relative;
-  width: 100%;
-  height: 100%;
+  width: 300px;
+  height: 200px;
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;

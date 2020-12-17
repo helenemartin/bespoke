@@ -20,8 +20,14 @@ export function FeatureItemContainer({ item }) {
         </Feature.Pane>
         <Feature.Pane>
           <Flipper>
-            <Feature.Image src={item.image} alt={item.alt} />
-            <Feature.Image src={item.image2} alt={item.alt} />
+            <Feature.Image
+              src={process.env.PUBLIC_URL + "/" + item.image}
+              alt={item.alt}
+            />
+            <Feature.Image
+              src={process.env.PUBLIC_URL + "/" + item.image2}
+              alt={item.alt}
+            />
           </Flipper>
         </Feature.Pane>
       </Feature>
