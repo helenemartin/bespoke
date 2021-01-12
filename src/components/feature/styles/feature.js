@@ -8,21 +8,24 @@ export const Inner = styled.div`
   flex-direction: @media (max-width: 1000px) {
     flex-direction: column;
   }
-  max-width: 1100px;
+
   margin: auto;
-  width: 100%;
   @media (max-width: 1000px) {
     flex-direction: column;
   }
 `;
 export const Pane = styled.div`
-  width: 50%;
+  margin: 0 100px;
+  @media (max-width: 1000px) {
+    margin: 0;
+  }
 `;
 
 export const Item = styled.div`
   display: flex;
   padding: 50px 5%;
   overflow: hidden;
+  justify-content: center;
 `;
 
 export const Container = styled.div`
@@ -50,8 +53,11 @@ export const SubTitle = styled.h2`
 `;
 
 export const Image = styled.img`
-  max-width: 200%;
-  height: auto;
+  max-width: 500px;
+  max-height: 500px;
+  @media (max-width: 500px) {
+    max-width: 90vw;
+  }
 `;
 
 export const Button = styled.button``;
