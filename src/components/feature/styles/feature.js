@@ -61,7 +61,7 @@ export const Image = styled.img`
 `;
 
 export const Button = styled.button`
-position: absolute;
-top: 50%;
-left: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
 `;
