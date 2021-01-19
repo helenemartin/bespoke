@@ -1,10 +1,17 @@
 import { useSpeechSynthesis } from "react-speech-kit";
+import { useMemo } from "react";
 import Feature from "../components/feature";
 import Flipper from "../components/flipper";
 
 export function FeatureItemContainer({ item }) {
-  const { speak } = useSpeechSynthesis();
+  const { speak, voices } = useSpeechSynthesis();
+  console.log(voices);
+  const Karen = useMemo(
+    () => voices.filter(value => value.name === "Karen")[0],
+    [voices]
+  );
 
+  console.log(Karen);
   return (
     <>
       <Feature key={item.id} direction={item.direction}>
@@ -25,7 +32,7 @@ export function FeatureItemContainer({ item }) {
               />
               <Feature.Button
                 data-testid="clickable-feature"
-                onClick={() => speak({ text: item.spokenText })}
+                onClick={() => speak({ text: item.spokenText, voice: Karen })}
               >
                 👄
               </Feature.Button>
