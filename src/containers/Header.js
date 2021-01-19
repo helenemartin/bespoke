@@ -6,7 +6,7 @@ import Navbar from "../components/nav/Navbar";
 export function HeaderContainer({ children }) {
   return (
     <>
-      <Navbar></Navbar>
+      <Navbar />
       <Header>
         <Header.Frame>
           <Header.Logo
