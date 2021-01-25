@@ -1,14 +1,12 @@
 import React from "react";
 import { FeatureContainer } from "../containers/FeatureContainer";
-import { HeaderContainer } from "../containers/Header";
+import Navbar from "../components/nav/Navbar";
 
 export default function Home() {
   return (
     <>
-      <HeaderContainer>
-        <p>Hello</p>
-      </HeaderContainer>
-      <FeatureContainer />;
+      <Navbar />
+      <FeatureContainer />
     </>
   );
 }
