@@ -2,12 +2,10 @@ import React from "react";
 import featureData from "../fixtures/feature.json";
 import Feature from "../components/feature";
 import { FeatureItemContainer } from "./FeatureItemContainer";
-// import { useSpeechSynthesisLazyLoad } from "../hooks/speechSynthesisLazyLoad";
 import { useSpeechSynthesis } from "react-speech-kit";
 import { useMemo } from "react";
 
 export function FeatureContainer() {
-  // const { speak, voices } = useSpeechSynthesisLazyLoad();
   const { speak, voices } = useSpeechSynthesis();
   console.log(voices);
   const Karen = useMemo(
