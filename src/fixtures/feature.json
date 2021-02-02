@@ -7,7 +7,7 @@
     "image2": "./images/FrancisAlysBack.jpg",
     "alt": "bla",
     "direction": "row",
-    "spokenText": "Hello"
+    "spokenText": "This is a post card from Fancis Alys exhibition at Tate Modern"
   },
   {
     "id": 2,
@@ -17,7 +17,7 @@
     "image2": "./images/HeleneBack.jpg",
     "alt": "bla",
     "direction": "row-reverse",
-    "spokenText": "Hi"
+    "spokenText": "Thank you nathan for sending me this lovely card from Helsinki, hum hum kiss kiss"
   },
   {
     "id": 3,
@@ -27,6 +27,6 @@
     "image2": "./images/GauginBack.jpg",
     "alt": "bla",
     "direction": "row",
-    "spokenText": "Hasta la vista"
+    "spokenText": "It is quiet perplexing to fanthom the intricate meaning of dust, snow and residue when they all scatter at my feet.. unexpectingly"
   }
 ]

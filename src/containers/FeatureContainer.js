@@ -15,6 +15,7 @@ function shuffleArray(sorting) {
   }
   return deal;
 }
+const shuffledFeatureData = shuffleArray(featureData);
 
 export function FeatureContainer() {
   const { speak, voices } = useSpeechSynthesis();
@@ -26,7 +27,7 @@ export function FeatureContainer() {
 
   return (
     <Feature.Container>
-      {shuffleArray(featureData).map(item => (
+      {shuffledFeatureData.map(item => (
         <FeatureItemContainer
           item={item}
           key={item.id}

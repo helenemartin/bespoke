@@ -29,7 +29,7 @@ export const Item = styled.div`
 `;
 
 export const Container = styled.div`
-  background-color: #e8e3d6;
+  background-color: #f6f2e6;
 `;
 
 export const Title = styled.h1`
