@@ -64,4 +64,5 @@ export const Button = styled.button`
   position: absolute;
   top: 50%;
   left: 50%;
+  cursor: pointer;
 `;
