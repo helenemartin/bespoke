@@ -14,12 +14,15 @@ export function FeatureItemContainer({ item, speak, voice }) {
             <Feature.Image
               src={process.env.PUBLIC_URL + "/" + item.image}
               alt={item.alt}
+              loading="lazy"
             />
             <div>
               <Feature.Image
                 src={process.env.PUBLIC_URL + "/" + item.image2}
                 alt={item.alt}
+                loading="lazy"
               />
+
               <Feature.Button
                 data-testid="clickable-feature"
                 onClick={() => speak({ text: item.spokenText, voice: voice })}
