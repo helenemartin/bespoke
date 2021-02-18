@@ -39,10 +39,9 @@ const RightNav = ({ open }) => {
       <li>
         <Link to={HOME}>Home</Link>
       </li>
-      <li>About Us</li>
-      <li>Contact Us</li>
-      <li>Sign In</li>
-      <li>Sign Up</li>
+      <li>Projects</li>
+      <li>Home</li>
+      <li>Info</li>
     </Ul>
   );
 };
